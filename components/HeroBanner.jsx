@@ -3,7 +3,7 @@ export default function HeroBanner({ movie }) {
 
   return (
     <div
-      className="relative w-full h-[90vh] text-white flex items-center justify-start"
+      className="relative w-full h-[70vh] text-white flex items-center justify-start"
       style={{
         backgroundImage: `url(https://image.tmdb.org/t/p/original${movie.backdrop_path})`,
         backgroundSize: "cover",
